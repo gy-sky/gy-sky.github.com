@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Gy-sky.GitHub.com : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>高原航拍</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+
+    <style>
+        body {
+            margin:0;
+        }
+        .menu {
+            margin:0;
+            background-color:black;
+            height:60px;
+            width:100%;
+        }
+        .wrapper1 {
+            margin: 0 auto;
+            background-color:black;
+            width:130px;
+            height:60px;
+            float:left;
+        }
+        .wrapper2 {
+            margin: 0 auto;
+            background-color:blue;
+            width:130px;
+            height:60px;
+            float:left;
+        }
+        .wrapper3 {
+            margin: 0 auto;
+            background-color:black;
+            width:130px;
+            height:60px;
+            float:left;
+        }
+        .wrapper4 {
+            margin: 0 auto;
+            background-color:blue;
+            width:130px;
+            height:60px;
+            float:left;
+        }
+        .wrapperbg1 {
+            height:60px;
+            width:130px;
+            position:absolute;
+            z-index:2;
+            background-color:black;
+            text-align:center;
+        }
+        .wrapperbg2 {
+            left:130px;
+            height:60px;
+            width:130px;
+            position:absolute;
+            z-index:2;
+            background-color:black;
+            text-align:center;
+        }
+        .wrapperbg3 {
+            left:260px;
+            height:60px;
+            width:130px;
+            position:absolute;
+            z-index:2;
+            background-color:black;
+            text-align:center;
+        }
+        .wrapperbg4 {
+            left:390px;
+            height:60px;
+            width:130px;
+            position:absolute;
+            z-index:2;
+            background-color:black;
+            text-align:center;
+        }
+        .block2 {
+            width:130px;
+            height:300px;
+            background-color:red;
+            margin-top:-400px;
+            z-index:1;
+            transition: margin-top 0.35s;
+            position:relative;
+            right:0;
+        }
+        .block3 {
+            width:130px;
+            height:300px;
+            background-color:red;
+            margin-top:-400px;
+            z-index:1;
+            transition: margin-top 0.35s;
+            position:relative;
+            right:0;
+        }
+        .block4 {
+            width:130px;
+            height:300px;
+            background-color:red;
+            margin-top:-400px;
+            z-index:1;
+            transition: margin-top 0.35s;
+            position:relative;
+            right:0;
+        }
+        .subblockone {
+            width:130px;
+            height:100px;
+            background-color:red;
+            text-align:center;
+        }
+        .subblocktwo {
+            width:130px;
+            height:100px;
+            background-color:blue;
+            text-align:center;
+        }
+        .subblockthree {
+            width:130px;
+            height:100px;
+            background-color:black;
+            text-align:center;
+        }
+        .wrapper2:hover .block2 {
+            margin-top:60px;
+        }
+        .wrapper3:hover .block3 {
+            margin-top:60px;
+        }
+        .wrapper4:hover .block4 {
+            margin-top:60px;
+        }
+        #one {
+            background-color:white;
+            width:100%;
+            height:56px;
+            margin:0;
+            overflow:hidden;
+            transition: height 1s;
+        }
+        #one.expand {
+            height:300px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="menu">
+    <div class="wrapper1">
+        <div class="wrapperbg1">
+            <h4 style="color:white">高原航拍</h4>
+        </div>
+    </div>
+</div>
+<div id="one">
+    <div style="height:60px;width:100%;background-color:white;text-align:center;margin:0;border:1px;">
+        <h2 style="margin:6px;">点击展开高原个人介绍</h2>
+        <img src = "http://www.geekzhou.com/img/arrow.png" style = "width:30px;vertical-align:text-top;">
+    </div>
+    <div style="width:100%; height:500px; background-color:indianred;margin:0;padding:1px;text-align:center;">
+        <h3>作为全球顶尖的无人机飞行平台和影像系统自主研发和制造商，DJI大疆创新始终以领先的技术和尖端的产品为发展核心。从最早的商用飞行控制系统起步，逐步地研发推出了ACE系列直升机飞控系统、多旋翼飞控系统、筋斗云系列专业级飞行平台S1000、S900、多旋翼一体机Phantom、 Ronin三轴手持云台系统等产品。不仅填补了国内外多项技术空白，并成为全球同行业中领军企业， DJI以“飞行影像系统”为核心发展方向，通过多层次的空中照相机方案，带给人类全新的飞行感官体验，使得飞行在普罗大众中皆能随心所欲。作为全球顶尖的无人机飞行平台和影像系统自主研发和制造商，DJI大疆创新始终以领先的技术和尖端的产品为发展核心。从最早的商用飞行控制系统起步，逐步地研发推出了ACE系列直升机飞控系统、多旋翼飞控系统、筋斗云系列专业级飞行平台S1000、S900、多旋翼一体机Phantom、 Ronin三轴手持云台系统等产品。不仅填补了国内外多项技术空白，并成为全球同行业中领军企业， DJI以“飞行影像系统”为核心发展方向，通过多层次的空中照相机方案，带给人类全新的飞行感官体验，使得飞行在普罗大众中皆能随心所欲。作为全球顶尖的无人机飞行平台和影像系统自主研发和制造商，DJI大疆创新始终以领先的技术和尖端的产品为发展核心。从最早的商用飞行控制系统起步，逐步地研发推出了ACE系列直升机飞控系统、多旋翼飞控系统、筋斗云系列专业级飞行平台S1000、S900、多旋翼一体机Phantom、 Ronin三轴手持云台系统等产品。不仅填补了国内外多项技术空白，并成为全球同行业中领军企业， DJI以“飞行影像系统”为核心发展方向，通过多层次的空中照相机方案，带给人类全新的飞行感官体验，使得飞行在普罗大众中皆能随心所欲。</h3>
+    </div>
+</div>
+<div style="height:500px;width:100%;margin:0px;background-color:green;text-align:center;">
+    <h2 style="margin:0px;position:relative;top:20px;">照片照片照片</h2>
+    <img id="pic" src="http://www.geekzhou.com/img/1.png" style="width:300px;height:399px;position:relative;top:35px;">
+    <p id="next" style="position:relative;top:30px;">下一张</p>
+</div>
+
+<!-- HEADER -->
+<!--
+<div id="header_wrap" class="outer">
+    <header class="inner">
+        <a id="forkme_banner" href="https://github.com/gy-sky">高原航拍</a>
+        <h1 id="project_title">www.GY-SKY.com</h1>
+        <h2 id="project_tagline"></h2>
+    </header>
+</div>
+-->
+<!-- MAIN CONTENT -->
+
+<!-- FOOTER  -->
+
+
+<script>
+    $('#one').click(function(){
+        if ($(this).hasClass('expand')) {
+            $(this).removeClass('expand')
+        } else {
+            $(this).addClass('expand') }
+    });
+
+    var zhou = 8996;
+    var num = 0;
+    var tmp;
+    var sample = new Array();
+    sample['0'] = 'http://www.geekzhou.com/img/1.png';
+    sample['1'] = 'http://www.geekzhou.com/img/2.png';
+    sample['2'] = 'http://www.geekzhou.com/img/3.png';
+    sample['3'] = 'http://www.geekzhou.com/img/4.png';
+    $('#next').click(function(){
+        zhou--;
+        num = zhou % 4;
+        tmp = sample[num];
+        $('#pic').attr('src',tmp)
+    });
+</script>
+</body>
+</html>
