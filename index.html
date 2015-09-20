@@ -343,56 +343,60 @@ $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
 							
 							var number = 10000;
 							
-							$('rightarrow').click(function(){
+							$('#rightarrow').click(function(){
 								
 								number++;
 								var point = 10000%2;
 								
-								$('img1').attr('src','http://www.geekzhou.com/img/'+point+'1.png');
-								$('img2').attr('src','http://www.geekzhou.com/img/'+point+'2.png');
-								$('img3').attr('src','http://www.geekzhou.com/img/'+point+'3.png');
-								$('img4').attr('src','http://www.geekzhou.com/img/'+point+'4.png');
-								$('img5').attr('src','http://www.geekzhou.com/img/'+point+'5.png');
-								$('img6').attr('src','http://www.geekzhou.com/img/'+point+'6.png');
-								$('img7').attr('src','http://www.geekzhou.com/img/'+point+'7.png');
-								$('img8').attr('src','http://www.geekzhou.com/img/'+point+'8.png');
-								$('img9').attr('src','http://www.geekzhou.com/img/'+point+'9.png');
+								$('#img1').attr('src','http://www.geekzhou.com/img/'+point+'1.png');
+								$('#img2').attr('src','http://www.geekzhou.com/img/'+point+'2.png');
+								$('#img3').attr('src','http://www.geekzhou.com/img/'+point+'3.png');
+								$('#img4').attr('src','http://www.geekzhou.com/img/'+point+'4.png');
+								$('#img5').attr('src','http://www.geekzhou.com/img/'+point+'5.png');
+								$('#img6').attr('src','http://www.geekzhou.com/img/'+point+'6.png');
+								$('#img7').attr('src','http://www.geekzhou.com/img/'+point+'7.png');
+								$('#img8').attr('src','http://www.geekzhou.com/img/'+point+'8.png');
+								$('#img9').attr('src','http://www.geekzhou.com/img/'+point+'9.png');
 								
-								images[1][0]['adress'] = 'http://www.geekzhou.com/img/'+point+'1.png'
-								images[1][1]['adress'] = 'http://www.geekzhou.com/img/'+point+'2.png'
-								images[1][2]['adress'] = 'http://www.geekzhou.com/img/'+point+'3.png'
-								images[1][3]['adress'] = 'http://www.geekzhou.com/img/'+point+'4.png'
-								images[1][4]['adress'] = 'http://www.geekzhou.com/img/'+point+'5.png'
-								images[1][5]['adress'] = 'http://www.geekzhou.com/img/'+point+'6.png'
-								images[1][6]['adress'] = 'http://www.geekzhou.com/img/'+point+'7.png'
-								images[1][7]['adress'] = 'http://www.geekzhou.com/img/'+point+'8.png'
-								images[1][8]['adress'] = 'http://www.geekzhou.com/img/'+point+'9.png'
+								console.log('src','http://www.geekzhou.com/img/'+point+'9.png');
+								
+								images[1][0]['adress'] = 'http://www.geekzhou.com/img/'+point+'1.png';
+								images[1][1]['adress'] = 'http://www.geekzhou.com/img/'+point+'2.png';
+								images[1][2]['adress'] = 'http://www.geekzhou.com/img/'+point+'3.png';
+								images[1][3]['adress'] = 'http://www.geekzhou.com/img/'+point+'4.png';
+								images[1][4]['adress'] = 'http://www.geekzhou.com/img/'+point+'5.png';
+								images[1][5]['adress'] = 'http://www.geekzhou.com/img/'+point+'6.png';
+								images[1][6]['adress'] = 'http://www.geekzhou.com/img/'+point+'7.png';
+								images[1][7]['adress'] = 'http://www.geekzhou.com/img/'+point+'8.png';
+								images[1][8]['adress'] = 'http://www.geekzhou.com/img/'+point+'9.png';
 							});
 							
-							$('leftarrow').click(function(){
+							$('#leftarrow').click(function(){
 								
 								number--;
 								var point = 10000%2;
 								
-								$('img1').attr('src','http://www.geekzhou.com/img/'+point+'1.png');
-								$('img2').attr('src','http://www.geekzhou.com/img/'+point+'2.png');
-								$('img3').attr('src','http://www.geekzhou.com/img/'+point+'3.png');
-								$('img4').attr('src','http://www.geekzhou.com/img/'+point+'4.png');
-								$('img5').attr('src','http://www.geekzhou.com/img/'+point+'5.png');
-								$('img6').attr('src','http://www.geekzhou.com/img/'+point+'6.png');
-								$('img7').attr('src','http://www.geekzhou.com/img/'+point+'7.png');
-								$('img8').attr('src','http://www.geekzhou.com/img/'+point+'8.png');
-								$('img9').attr('src','http://www.geekzhou.com/img/'+point+'9.png');
+								$('#img1').attr('src','http://www.geekzhou.com/img/'+point+'1.png');
+								$('#img2').attr('src','http://www.geekzhou.com/img/'+point+'2.png');
+								$('#img3').attr('src','http://www.geekzhou.com/img/'+point+'3.png');
+								$('#img4').attr('src','http://www.geekzhou.com/img/'+point+'4.png');
+								$('#img5').attr('src','http://www.geekzhou.com/img/'+point+'5.png');
+								$('#img6').attr('src','http://www.geekzhou.com/img/'+point+'6.png');
+								$('#img7').attr('src','http://www.geekzhou.com/img/'+point+'7.png');
+								$('#img8').attr('src','http://www.geekzhou.com/img/'+point+'8.png');
+								$('#img9').attr('src','http://www.geekzhou.com/img/'+point+'9.png');
 								
-								images[1][0]['adress'] = 'http://www.geekzhou.com/img/'+point+'1.png'
-								images[1][1]['adress'] = 'http://www.geekzhou.com/img/'+point+'2.png'
-								images[1][2]['adress'] = 'http://www.geekzhou.com/img/'+point+'3.png'
-								images[1][3]['adress'] = 'http://www.geekzhou.com/img/'+point+'4.png'
-								images[1][4]['adress'] = 'http://www.geekzhou.com/img/'+point+'5.png'
-								images[1][5]['adress'] = 'http://www.geekzhou.com/img/'+point+'6.png'
-								images[1][6]['adress'] = 'http://www.geekzhou.com/img/'+point+'7.png'
-								images[1][7]['adress'] = 'http://www.geekzhou.com/img/'+point+'8.png'
-								images[1][8]['adress'] = 'http://www.geekzhou.com/img/'+point+'9.png'
+								console.log('src','http://www.geekzhou.com/img/'+point+'1.png');
+								
+								images[1][0]['adress'] = 'http://www.geekzhou.com/img/'+point+'1.png';
+								images[1][1]['adress'] = 'http://www.geekzhou.com/img/'+point+'2.png';
+								images[1][2]['adress'] = 'http://www.geekzhou.com/img/'+point+'3.png';
+								images[1][3]['adress'] = 'http://www.geekzhou.com/img/'+point+'4.png';
+								images[1][4]['adress'] = 'http://www.geekzhou.com/img/'+point+'5.png';
+								images[1][5]['adress'] = 'http://www.geekzhou.com/img/'+point+'6.png';
+								images[1][6]['adress'] = 'http://www.geekzhou.com/img/'+point+'7.png';
+								images[1][7]['adress'] = 'http://www.geekzhou.com/img/'+point+'8.png';
+								images[1][8]['adress'] = 'http://www.geekzhou.com/img/'+point+'9.png';
 							});
 							
 						});
